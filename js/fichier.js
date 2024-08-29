@@ -136,6 +136,61 @@ l8.onclick=function()
     a8.setAttribute('class',' page-link text-white bg-success')
 }
 
+let l9=document.querySelector('#idli9')
+let l10=document.querySelector('#idli10')
+let l11=document.querySelector('#idli11')
+let l12=document.querySelector('#idli12')
+
+l9.onclick=function()
+{
+    let a9=document.querySelector('#ida9')
+    let a10=document.querySelector('#ida10')
+    let a11=document.querySelector('#ida11')
+    let a12=document.querySelector('#ida12')
+    a9.setAttribute('class',' page-link text-white bg-success')
+    a10.setAttribute('class',' page-link text-black bg-white')
+    a11.setAttribute('class',' page-link text-black bg-white')
+    a12.setAttribute('class',' page-link text-black bg-white')
+}
+
+l10.onclick=function()
+{
+    let a9=document.querySelector('#ida9')
+    let a10=document.querySelector('#ida10')
+    let a11=document.querySelector('#ida11')
+    let a12=document.querySelector('#ida12')
+    a10.setAttribute('class',' page-link text-white bg-success')
+    a9.setAttribute('class',' page-link text-black bg-white')
+    a11.setAttribute('class',' page-link text-black bg-white')
+    a12.setAttribute('class',' page-link text-black bg-white')
+}
+
+l11.onclick=function()
+{
+    let a9=document.querySelector('#ida9')
+    let a10=document.querySelector('#ida10')
+    let a11=document.querySelector('#ida11')
+    let a12=document.querySelector('#ida12')
+    a11.setAttribute('class',' page-link text-white bg-success')
+    a10.setAttribute('class',' page-link text-black bg-white')
+    a9.setAttribute('class',' page-link text-black bg-white')
+    a12.setAttribute('class',' page-link text-black bg-white')
+}
+
+l12.onclick=function()
+{
+    let a9=document.querySelector('#ida9')
+    let a10=document.querySelector('#ida10')
+    let a11=document.querySelector('#ida11')
+    let a12=document.querySelector('#ida12')
+    a12.setAttribute('class',' page-link text-white bg-success')
+    a10.setAttribute('class',' page-link text-black bg-white')
+    a11.setAttribute('class',' page-link text-black bg-white')
+    a9.setAttribute('class',' page-link text-black bg-white')
+}
+
+
+
 let bt1=document.querySelector('#idb1')
 let bt2=document.querySelector('#idb2')
 let bt3=document.querySelector('#idb3')
@@ -145,6 +200,7 @@ let bt6=document.querySelector('#idb6')
 let bt7=document.querySelector('#idb7')
 let bt8=document.querySelector('#idb8')
 let bt9=document.querySelector('#idb9')
+let bt10=document.querySelector('#idb10')
 let img1=document.querySelector('#idimg1')
 let img2=document.querySelector('#idimg2')
 let img3=document.querySelector('#idimg3')
@@ -405,4 +461,13 @@ bt9.onmouseover=function()
 bt9.onmouseout=function()
 {
     bt9.setAttribute('class',' btn border border-2 border-info text-info text-bold p-2')
+}
+bt10.onmouseover=function()
+{
+    bt10.setAttribute('class',' btn text-white text-bold p-2 btn-success')
+}
+
+bt10.onmouseout=function()
+{
+    bt10.setAttribute('class',' btn border border-2 border-info text-info text-bold p-2')
 }
